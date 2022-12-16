@@ -40,7 +40,7 @@ app = FastAPI()
 
 @app.get("/")
 async def index():
-    return HTMLResponse("")
+    return HTMLResponse("Am Active")
 
 
 @app.get("/robots.txt")
